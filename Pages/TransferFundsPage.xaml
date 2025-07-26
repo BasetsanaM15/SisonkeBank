@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="SisonkeBank.Pages.TransferFundsPage"
+             Title="Transfer Funds">
+    <ScrollView>
+        <VerticalStackLayout Padding="20" Spacing="15">
+            <Label Text="Recipient Email:" FontAttributes="Bold" />
+            <Entry x:Name="recipientEntry" Placeholder="Enter recipient's email" Keyboard="Email"/>
+
+            <Label Text="Amount:" FontAttributes="Bold" />
+            <Entry x:Name="amountEntry" Placeholder="Enter amount to transfer" Keyboard="Numeric" />
+
+            <Label Text="Message:" FontAttributes="Bold" />
+            <Label x:Name="messageLabel" Text="" TextColor="Red" FontAttributes="Italic" IsVisible="False" HorizontalOptions="Center"/>
+
+            <Button Text="Transfer" Clicked="OnTransferClicked" />
+            
+            
+    </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>

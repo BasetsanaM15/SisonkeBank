@@ -1,0 +1,28 @@
+<ContentPage 
+             xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="SisonkeBank.Pages.ViewBalancePage"
+             Title="Account Balance">
+
+    <VerticalStackLayout Padding="20" Spacing="20">
+        <Label Text="Account Balance"
+               FontSize="24"
+               FontAttributes="Bold"
+               HorizontalOptions="Center" />
+
+        <Label x:Name="balanceLabel"
+               Text="Balance will be displayed here"
+               FontSize="20"
+               FontAttributes="Bold"
+               TextColor="Green"
+               HorizontalOptions="Center" 
+               VerticalOptions="Center"/>
+
+        <Button Text="Back to Main Page"
+                Clicked="OnBackClicked"
+                BackgroundColor="#808080"
+                TextColor="White"
+                CornerRadius="10"
+                Padding="10" />
+    </VerticalStackLayout>
+    </ContentPage>

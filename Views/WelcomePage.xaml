@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="SisonkeBank.Views.WelcomePage"
+             Title="Welcome">
+    <VerticalStackLayout Spacing="25" Padding="30" VerticalOptions="Center">
+        <Label Text="Welcome to Sisonke Bank"
+            FontSize="32"
+            FontAttributes="Bold"
+            HorizontalOptions="Center" />
+        <Image Source="bank_logo.png"
+               HeightRequest="150"
+               WidthRequest="150"
+               HorizontalOptions="Center" />
+        <Button Text="Get Started"
+                FontSize="18"
+                BackgroundColor="#1976D2"
+                TextColor="White"
+                CornerRadius="10"
+                Clicked="OnGetStartedClicked" />
+    </VerticalStackLayout>
+</ContentPage>
