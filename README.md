@@ -24,7 +24,7 @@ Sisonke Bank is a prototype mobile banking application developed as part of the 
 4. Build and run the app on an Android or iOS emulator, or a physical device.
 
 ## Contact
-For questions or feedback, please reach out to [your-email@example.com] or visit my GitHub profile: [https://github.com/your-username]
+For questions or feedback, please reach out to [michellmabusela@gmail.com] or visit my GitHub profile.
 
 
 *This project was developed as part of the ITMOA0 Mobile Development module at Eduvos.*
